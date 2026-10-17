@@ -1,0 +1,25 @@
+# Keys: never in git (the * also catches semantic-scholar-key.txt.txt and .rtf)
+semantic-scholar-key*
+*-key.txt
+*.key
+.env
+.env.*
+
+# Your paper is its own git repository, linked to Overleaf (Homework 2a)
+labs/lab04-uist-paper/
+
+# Paper PDFs you download: keep them on your computer only
+labs/lab07-closest-papers/papers/*.pdf
+psets/*/papers/*.pdf
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# The AI's personal settings stay on your computer
+.claude/settings.local.json
+
+# Mac and Windows system files
+.DS_Store
+Thumbs.db
