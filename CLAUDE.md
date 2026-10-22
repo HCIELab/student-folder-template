@@ -26,7 +26,7 @@ This is a student's working folder for MIT 6.8500 (AI-assisted HCI research). Th
 
 ## Git
 
-- Do not commit, push, or create branches or worktrees. The student commits in GitHub Desktop after each lab.
+- Do not commit, push, or create branches or worktrees.
 
 ## The student's own rules
 
