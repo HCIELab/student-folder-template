@@ -5,7 +5,7 @@
 - Their idea in one sentence:
 - What your partner found hardest to follow about your idea:
 
-## Step 6: Your grades vs. the AI's ratings
+## Step 6: Your ratings vs. the AI's ratings
 - Rows with the same color in "Me" and "AI" (of 9):
 - Biggest disagreement 1 (who was right, and why):
 - Biggest disagreement 2 (who was right, and why):
