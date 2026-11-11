@@ -4,12 +4,12 @@ One folder per lab. Each lab page tells you which folder to work in; the AI save
 
 | Folder | Made in | What goes in it |
 | --- | --- | --- |
-| `lab01-research-areas` | Lab 1 (research areas) | `lab01-uist-papers.json`, `technology.md`, `technologies.png`, `research_area.png`, `notes.md` |
-| `lab02-idea-patterns` | Homework 1 (install), Step 5 | `semantic-scholar-key.txt` (never in git); in Lab 2 (idea patterns): `codebook.md`, `technology.md`, `not-carried-over.xlsx`, `notes.md` |
-| `lab02-my-idea` | Homework 2b (your idea as a mini abstract) | `idea.md` with your idea; Lab 3 (idea evaluation interview) adds `ai-rating.md` and `lab03-routes-by-pattern.md` next to it |
-| `lab03-feasibility` | Lab 3 (idea evaluation interview) | `notes.md`; your ratings are on a paper sheet, not in any file, so the AI does not see them. The rest of Lab 3 works in `lab02-my-idea`, next to your idea |
-| `lab04-reviews` | Lab 4 (simulated reviewers) | `reviews-v1.md` and the later reviews |
-| `lab04-uist-paper` | Homework 2a (Overleaf) | Your paper, cloned from Overleaf; Labs 4 to 15 write into it. Not in the starter: the clone makes this folder |
+| `lab01-research-areas` | Lab 1 (new technology) | `lab01-uist-papers.json`, `research-area-papers.json`, `technology-list.md`, `technology-families.json`, `technologies.png`, `research_area.png`, `shortlist.md`, `technology.md`, `notes.md` |
+| `lab02-idea-patterns` | Homework 1a (install), Step 6 | `semantic-scholar-key.txt` (never in git); in Lab 2 (idea patterns): `codebook.md`, copies of `technology.md`, `research-area-papers.json` and `technology-families.json`, `patterns-research-area.csv`, `not-carried-over.xlsx`, `notes.md` |
+| `lab02-my-idea` | Homework 2a (your idea as an abstract) | `idea.md` with your idea, and `closest-papers.md`; Homework 2b and Labs 3 and 4 read and add to `idea.md` |
+| `lab03-feasibility` | Homework 2b (can you build it) | `feasibility.md`, `lab03-routes-by-pattern.md`; in Lab 3 (feasibility): `notes.md`, `interview.md`, `ai-rating.md`. Your own ratings are on a paper sheet, not in any file, so the AI does not see them |
+| `lab04-reviews` | Lab 4 (simulated reviewers) | `reviews-v1.md`, `reviews-v2.md` |
+| `lab04-uist-paper` | Homework 3b (your paper on Overleaf) | Your paper, cloned from Overleaf; Labs 4 to 15 write into it. Not in the starter: the clone makes this folder |
 | `lab05-citations` | Lab 5 (related work) | Nothing yet: Lab 5 writes `claude-memory.bib`, `claude-web.bib` and `sections/related-work.tex` into your paper |
 | `lab06-crossref` | Lab 6 (verified source) | Nothing yet: Lab 6 works on the `.bib` files in your paper. The skills you build go in `../.claude/skills/` |
 | `lab07-hello` | Homework 5 (first MCP server) | `pyproject.toml` and your first server |
