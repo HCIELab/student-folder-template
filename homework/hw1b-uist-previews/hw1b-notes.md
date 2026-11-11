@@ -7,17 +7,20 @@
 ## 2. My three favorite previews
 
 ### Favorite 1
-- Title and link:
+- Title:
+- Link:
 - What the authors built (one or two lines):
 - The technology it builds on (hardware, material or fabrication process):
 
 ### Favorite 2
-- Title and link:
+- Title:
+- Link:
 - What the authors built (one or two lines):
 - The technology it builds on (hardware, material or fabrication process):
 
 ### Favorite 3
-- Title and link:
+- Title:
+- Link:
 - What the authors built (one or two lines):
 - The technology it builds on (hardware, material or fabrication process):
 
