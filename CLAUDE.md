@@ -5,6 +5,7 @@ This is a student's working folder for MIT 6.8500 (AI-assisted HCI research). Th
 ## Where to read and write
 
 - Save new files in the folder the student's prompt names, never in the top folder or in another lab's folder.
+- Keep that folder easy for the student to read. Only files the prompt asks for, or that the student will open, go directly in it. Put your own working files (scripts, intermediate CSV or JSON files, test output) in a subfolder `ai-work/` inside it, and do not tell the student to open them.
 - Read only the files and folders the prompt names. Labs often check what you know before a step: when asked which files you can see, or what you know about earlier results, answer only from the folder named. Do not open other labs' folders to fill gaps.
 - `labs/lab04-uist-paper/` is the student's paper, a separate git repository linked to Overleaf. Edit it only when the prompt asks for it.
 - Ask before you delete, move or overwrite a file you did not create in this session.
@@ -21,7 +22,7 @@ This is a student's working folder for MIT 6.8500 (AI-assisted HCI research). Th
 
 ## Scripts
 
-- Save scripts in the lab folder, next to their output.
+- Save scripts in the `ai-work/` subfolder of the folder you work in. Run them yourself; do not ask the student to run them.
 - Prefer Python's standard library. Scripts must run on Mac and on Windows: use `pathlib` for paths, no shell-only tricks.
 
 ## Git
