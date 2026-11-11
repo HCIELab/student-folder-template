@@ -71,7 +71,7 @@ Names that start with a dot (`.gitignore`, `.claude`) are hidden. To see them:
 - **One folder per lab.** Each lab names its folder in `labs/`. Ask the AI to save its files there.
 - **Keys stay private.** Never paste an API key into a chat or into a file you hand in. `.gitignore` already covers `semantic-scholar-key.txt` in case you ever put this folder under git.
 - **Back it up your way.** Nothing backs this folder up for you. Use git, your computer's own backup, or both; the AI edits files here, so a way to go back to an earlier version helps. `.gitignore` already keeps your keys, downloaded PDFs and your paper out of git.
-- **Your paper is separate.** `labs/lab04-uist-paper` (from Homework 2a) is its own git repository, linked to Overleaf. Overleaf keeps it.
+- **Your paper is separate.** `labs/lab04-uist-paper` (from Homework 3b) is its own git repository, linked to Overleaf. Overleaf keeps it.
 - **`CLAUDE.md` is yours.** Add your own rules for the AI at the end of it.
 
 | If you get stuck | Fix |
