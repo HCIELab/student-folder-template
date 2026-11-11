@@ -5,24 +5,22 @@
 - Why I chose it over the other two (one sentence):
 
 ## 2. My three favorite previews
+- Why these three are my favorites (one or two sentences):
 
 ### Favorite 1
 - Title:
 - Link:
-- What the authors built (one or two lines):
-- The technology it builds on (hardware, material or fabrication process):
+- What the authors built:
+- The technology it builds on:
 
 ### Favorite 2
 - Title:
 - Link:
-- What the authors built (one or two lines):
-- The technology it builds on (hardware, material or fabrication process):
+- What the authors built:
+- The technology it builds on:
 
 ### Favorite 3
 - Title:
 - Link:
-- What the authors built (one or two lines):
-- The technology it builds on (hardware, material or fabrication process):
-
-## 3. What they have in common
-- What my three favorites have in common, and whether they build on the same technology (one sentence):
+- What the authors built:
+- The technology it builds on:
