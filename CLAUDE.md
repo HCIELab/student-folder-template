@@ -1,6 +1,6 @@
 # 6.8500 working folder: rules for the AI
 
-This is a student's working folder for MIT 6.8500 (AI-assisted HCI research). The student does one lab at a time, and each lab has its own folder in `labs/` (map in `labs/README.md`). These rules apply to every session in this folder.
+This is a student's working folder for MIT 6.8500 (AI-assisted HCI research). The student does one lab at a time, and each lab has its own folder in `labs/` (and each homework in `homework/`). The folders start empty: each lab or homework hands out its files in a starter zip at its start. These rules apply to every session in this folder.
 
 ## Where to read and write
 

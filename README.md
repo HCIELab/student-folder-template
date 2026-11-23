@@ -14,7 +14,7 @@ This is the starter for your working folder, `6.8500-Interactive-Tech-Research`.
 │   ├── settings.json  course settings for the AI (no memory between sessions)
 │   └── skills/        your skills, one folder each; the AI uses them on its own
 ├── homework/          one folder per homework that makes files
-├── labs/              one folder per lab (map in labs/README.md)
+├── labs/              one folder per lab, empty until the lab's starter files
 └── psets/             the pset starters go here
 ```
 

@@ -9,7 +9,7 @@ semantic-scholar-key*
 labs/lab04-uist-paper/
 
 # Paper PDFs you download: keep them on your computer only
-labs/lab07-closest-papers/papers/*.pdf
+labs/lab05-closest-papers/papers/*.pdf
 psets/*/papers/*.pdf
 
 # Python
