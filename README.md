@@ -13,14 +13,14 @@ This is the starter for your working folder, `6.8500-Interactive-Tech-Research`.
 ├── .claude/
 │   ├── settings.json  course settings for the AI (no memory between sessions)
 │   └── skills/        your skills, one folder each; the AI uses them on its own
-├── research/          your project, one folder per step in course order:
-│                      01-research-areas, 02-technologies, 03-ideas, … 20-project-page
+├── research/          your project: 00-progress (the overview of your research areas
+│                      and one progress page per research area), then one folder per
+│                      step in course order: 01-research-areas, 02-technologies, 03-ideas,
+│                      … 20-project-page
 ├── setup/             installing and connecting tools: 01-install, 02-crossref, 03-mcp-server
 └── psets/             the pset starters go here
 
-Later in the semester you add paper/, your paper linked to Overleaf, and the research
-step you work on adds my-research-areas.md and one progress page per research area
-(for example circuit-prototyping.md) at the top.
+Later in the semester you add paper/, your paper linked to Overleaf.
 ```
 
 Names that start with a dot (`.gitignore`, `.claude`) are hidden. To see them:
@@ -56,7 +56,7 @@ Names that start with a dot (`.gitignore`, `.claude`) are hidden. To see them:
 
    The answer looks something like this (yours will differ):
 
-   > This is your 6.8500 working folder. At the top: README.md (how to set it up), CLAUDE.md (rules for me), .gitignore, and .claude/ with the course settings and an empty skills/ folder. Then research/ (one folder per project step, 01-research-areas to 20-project-page), setup/ and psets/. The folders are still empty apart from a .gitkeep file each.
+   > This is your 6.8500 working folder. At the top: README.md (how to set it up), CLAUDE.md (rules for me), .gitignore, and .claude/ with the course settings and an empty skills/ folder. Then research/ (00-progress, then one folder per project step, 01-research-areas to 20-project-page), setup/ and psets/. The folders are still empty apart from a .gitkeep file each.
 
    Then check that it works in the folder itself and knows the course rules. Ask:
 
