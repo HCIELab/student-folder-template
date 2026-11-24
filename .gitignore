@@ -5,11 +5,11 @@ semantic-scholar-key*
 .env
 .env.*
 
-# Your paper is its own git repository, linked to Overleaf (Homework 2a)
-labs/lab04-uist-paper/
+# Your paper is its own git repository, linked to Overleaf
+paper/
 
 # Paper PDFs you download: keep them on your computer only
-labs/lab05-closest-papers/papers/*.pdf
+research/08-closest-papers/papers/*.pdf
 psets/*/papers/*.pdf
 
 # Python

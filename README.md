@@ -1,6 +1,6 @@
 # Your working folder for 6.8500
 
-This is the starter for your working folder, `6.8500-Interactive-Tech-Research`. You download it once, in Homework 1 (install and sign in), and keep it on your computer for the whole semester. From then on, every lab puts its files in its own folder in `labs/`, so nothing ends up scattered over your disk.
+This is the starter for your working folder, `6.8500-Interactive-Tech-Research`. You download it once, in Setup 1 (install and sign in), and keep it on your computer for the whole semester. From then on, each step of your project, lab or homework, puts its files in its own numbered folder in `research/`, so nothing ends up scattered over your disk and the folders show the order of your project.
 
 ## What is inside
 
@@ -13,9 +13,14 @@ This is the starter for your working folder, `6.8500-Interactive-Tech-Research`.
 ├── .claude/
 │   ├── settings.json  course settings for the AI (no memory between sessions)
 │   └── skills/        your skills, one folder each; the AI uses them on its own
-├── homework/          one folder per homework that makes files
-├── labs/              one folder per lab, empty until the lab's starter files
+├── research/          your project, one folder per step in course order:
+│                      01-research-areas, 02-technologies, 03-ideas, … 20-project-page
+├── setup/             installing and connecting tools: 01-install, 02-crossref, 03-mcp-server
 └── psets/             the pset starters go here
+
+Later in the semester you add paper/, your paper linked to Overleaf, and the research
+step you work on adds my-research-areas.md and one progress page per research area
+(for example circuit-prototyping.md) at the top.
 ```
 
 Names that start with a dot (`.gitignore`, `.claude`) are hidden. To see them:
@@ -23,11 +28,11 @@ Names that start with a dot (`.gitignore`, `.claude`) are hidden. To see them:
 - **On a Mac:** in Finder, press Cmd+Shift+. (period).
 - **On Windows:** in File Explorer, choose **View → Show → Hidden items**.
 
-## Set it up (Homework 1)
+## Set it up (Setup 1)
 
 1. **Download it.** Open [github.com/HCIELab/student-folder-template](https://github.com/HCIELab/student-folder-template), click the green **Code** button, and choose **Download ZIP**. You do not need a GitHub account.
 
-2. **Unzip, rename and place it.** Unzip `student-folder-template-main.zip` (on a Mac, double-click it; on Windows, right-click it and choose **Extract All**). Rename the folder `student-folder-template-main` to `6.8500-Interactive-Tech-Research` and move it wherever you want to keep your course work, for example your Documents folder. Right inside `6.8500-Interactive-Tech-Research` you should see `README.md`, `CLAUDE.md`, `homework`, `labs` and `psets`, not another folder.
+2. **Unzip, rename and place it.** Unzip `student-folder-template-main.zip` (on a Mac, double-click it; on Windows, right-click it and choose **Extract All**). Rename the folder `student-folder-template-main` to `6.8500-Interactive-Tech-Research` and move it wherever you want to keep your course work, for example your Documents folder. Right inside `6.8500-Interactive-Tech-Research` you should see `README.md`, `CLAUDE.md`, `research`, `setup` and `psets`, not another folder.
 
 3. **Open the Code tab in the Claude app.** Check that you are in the class account: the lower left shows your name and the class organization. Then click the `</>` icon at the top left to switch from chat to code.
 
@@ -51,7 +56,7 @@ Names that start with a dot (`.gitignore`, `.claude`) are hidden. To see them:
 
    The answer looks something like this (yours will differ):
 
-   > This is your 6.8500 working folder. At the top: README.md (how to set it up), CLAUDE.md (rules for me), .gitignore, and .claude/ with the course settings and an empty skills/ folder. Then homework/, labs/ (one folder per lab, lab01-research-areas to lab15-project-pages) and psets/. The folders are still empty apart from a .gitkeep file each.
+   > This is your 6.8500 working folder. At the top: README.md (how to set it up), CLAUDE.md (rules for me), .gitignore, and .claude/ with the course settings and an empty skills/ folder. Then research/ (one folder per project step, 01-research-areas to 20-project-page), setup/ and psets/. The folders are still empty apart from a .gitkeep file each.
 
    Then check that it works in the folder itself and knows the course rules. Ask:
 
@@ -62,16 +67,16 @@ Names that start with a dot (`.gitignore`, `.claude`) are hidden. To see them:
 
    The answer looks something like this:
 
-   > /Users/yourname/Documents/6.8500-Interactive-Tech-Research (on Windows: C:\Users\yourname\Documents\6.8500-Interactive-Tech-Research). I save files only in the lab folder your prompt names, never print or commit an API key, check facts about papers against a source, and leave git to you.
+   > /Users/yourname/Documents/6.8500-Interactive-Tech-Research (on Windows: C:\Users\yourname\Documents\6.8500-Interactive-Tech-Research). I save files only in the folder your prompt names, never print or commit an API key, check facts about papers against a source, and leave git to you.
 
-   You are done when the first answer lists the template's files and folders (`README.md`, `CLAUDE.md`, `homework/`, `labs/` and `psets/`), and the second gives a path that ends in `6.8500-Interactive-Tech-Research` and at least one rule, such as never printing keys.
+   You are done when the first answer lists the template's files and folders (`README.md`, `CLAUDE.md`, `research/`, `setup/` and `psets/`), and the second gives a path that ends in `6.8500-Interactive-Tech-Research` and at least one rule, such as never printing keys.
 
 ## Rules
 
-- **One folder per lab.** Each lab names its folder in `labs/`. Ask the AI to save its files there.
+- **One folder per step.** Each step names its folder in `research/` (or `setup/`). Ask the AI to save its files there.
 - **Keys stay private.** Never paste an API key into a chat or into a file you hand in. `.gitignore` already covers `semantic-scholar-key.txt` in case you ever put this folder under git.
 - **Back it up your way.** Nothing backs this folder up for you. Use git, your computer's own backup, or both; the AI edits files here, so a way to go back to an earlier version helps. `.gitignore` already keeps your keys, downloaded PDFs and your paper out of git.
-- **Your paper is separate.** `labs/lab04-uist-paper` (from Homework 3b) is its own git repository, linked to Overleaf. Overleaf keeps it.
+- **Your paper is separate.** `paper/` (from a later homework) is its own git repository, linked to Overleaf. Overleaf keeps it.
 - **`CLAUDE.md` is yours.** Add your own rules for the AI at the end of it.
 
 | If you get stuck | Fix |
