@@ -9,7 +9,7 @@ semantic-scholar-key*
 paper/
 
 # Paper PDFs you download: keep them on your computer only
-research/08-closest-papers/papers/*.pdf
+research/11-related-work/papers/*.pdf
 psets/*/papers/*.pdf
 
 # Python
